@@ -1,4 +1,4 @@
-# 🎣Phishing Simulation for Security Awareness Using Zphisher
+# 🎣Phishing Attack Using Zphisher
 
 ## Introduction
 
