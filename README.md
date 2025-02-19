@@ -28,30 +28,22 @@ Email - craft email content that will increase the likelihood of recipients open
 ✅ No personal data is misused.
 
 
-## Part 1 – Installating and Configuring Zphisher
+## Part 1 – Installing and Configuring Zphisher
 
-To use Zphisher, you can follow these steps:
+1. Before downloading Zphisher, update Kali Linux terminal by running the following commands and to ensure that environment was conducive for Zphisher to function
+   - sudo apt update
+   - sudo apt full-upgrade -y
 
-1. Before downloading Zphisher, I prepared the Kali Linux terminal by update repositories by running the following commands and to ensure that environment was conducive for Zphisher to function
+2. Create Zphisher directory and navigate into it using the following commands in succession.
+   - mkdir zphisher
+   - cd zphisher 
 
-sudo apt update 
-sudo apt full-upgrade -y
+3. Install & Set Up Zphisher
+- Install necessary dependencies.
+- Clone the Zphisher repository and launch the tool.
+- The url https://github.com/htr-tech/zphisher.git after the git clone command is the link to the GitHub website.
 
-2. Created a directory we called Zphisher and navigated into it using the following commands in succession.
-
-mkdir zphisher
-cd zphisher 
-
-We cloned the Zphisher repository in a terminal in Kali Linux using the following command:
-
-
-
-The url https://github.com/htr-tech/zphisher.git after the git clone command is the link to the GitHub website.
-
-The cloning output is confirmed as follows:
-
-
-Navigate to the downloaded “zphisher” directory to see the files within by running the following commands:
+4.  Navigate to the downloaded “zphisher” directory to see the files within by running the following commands:
 
 cd zphisher
 ls
@@ -59,11 +51,12 @@ ls
 The output of the commands displayed the following files, similar to those contained in the GitHub web page:
 
 
-
-
-Run the Zphisher script (contained in the zphisher.sh shell script file) by executing the following command:
+5. Run the Zphisher script (contained in the zphisher.sh shell script file) by executing the following command:
 
 bash zphisher.sh
+
+
+
 
 A page opens with phishing page templates giving options of the type of phishing attacks that to can be performed by entering the corresponding number.
 
