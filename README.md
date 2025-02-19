@@ -1,25 +1,34 @@
 # 🎣Phishing Simulation for Security Awareness Using Zphisher
 
-
 ## Introduction
 
-Goal for Security Awareness Traning using Zphisher: 
-- To create a phishing simulation to show employees/users how phishing work
-- Demonstrate credential harvesting to emphasize why they should never enter credentials on unknown links
-- 
+A sophisticated phishing attack tricked LastPass users into revealing their master passwords. CryptoChameleon attackers bypassed even diligent users, highlighting the human factor as cybersecurity’s greatest vulnerability. 
+
+The purpose of this project is to raise security awareness and educate employees/users on Social engineering, especially phishing, which is a cybersecurity threat that manipulates people to reveal confidential information through email and malicious websites. 
 
 
 
+## Objectives
+
+- Demonstrate how attackers use fake login pages to trick users and their capture user credentials using phishing tools such as Zphisher.
+- Teach phishing detection techniques, such as checking URLs, avoiding suspicious emails, and using MFA.
 
 
+## Tools 
 
-
-Demonstrate the use of Zphisher, an automation phishing tool that can be used to harvest credentials to educate users on phishing attacks. 
-
-Tools: 
-Zphisher - the phishing framework we will use to create phishing pages for websites.
+Zphisher - an automated phishing tool that is used to create phishing login pages.
 Kali Linux - the VM we will use to download zphisher and get it to work
 Email - craft email content that will increase the likelihood of recipients opening the emails and clicking on the links.
+
+## ⚠️ Important ⚠️
+**If you’re using Zphisher for educational purposes, ensure that:**
+
+✅ You have explicit permission from your organization or training participants.
+
+✅ It is done in a safe lab environment (not on live networks or real accounts).
+
+✅ No personal data is misused.
+
 
 Part 1 – Research
 
@@ -28,8 +37,7 @@ In a recent phishing incident, a highly sophisticated phishing campaign led Last
 
 
 
-Social engineering, especially phishing, is a cyber attack that manipulates people to reveal confidential information through email and malicious websites. An estimated 3.4 billion emails a day are sent by cybercriminals, designed to look like they come from trusted senders. This is over a trillion phishing emails per year. Around 36% of all data breaches involve phishing
-3% of employees will click on a malicious link within a phishing email. Bolster research in 2023 showed an over 94% increase in phishing and scam activity since 2020. 
+
 
 
 
