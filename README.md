@@ -36,51 +36,53 @@ Email - craft email content that will increase the likelihood of recipients open
 
 2. Create Zphisher directory and navigate into it using the following commands in succession.
    - mkdir zphisher
-   - cd zphisher 
+   - cd zphisher
+
+![alt zphisher](https://github.com/ayushmak7/Phishing-Tool-Implementation/blob/main/images/1.png?raw=true)
 
 3. Install & Set Up Zphisher
-- Install necessary dependencies.
-- Clone the Zphisher repository and launch the tool.
-- The url https://github.com/htr-tech/zphisher.git after the git clone command is the link to the GitHub website.
+   - Install necessary dependencies.
+   - Clone the Zphisher repository using this url https://github.com/htr-tech/zphisher.git and launch the tool.
+  
+![alt zphisher](https://github.com/ayushmak7/Phishing-Tool-Implementation/blob/main/images/3.png?raw=true)
+
 
 4.  Navigate to the downloaded “zphisher” directory to see the files within by running the following commands:
+      - cd zphisher
+      - ls
 
-cd zphisher
-ls
-
-The output of the commands displayed the following files, similar to those contained in the GitHub web page:
+![alt zphisher](https://github.com/ayushmak7/Phishing-Tool-Implementation/blob/main/images/4.png?raw=true)
 
 
 5. Run the Zphisher script (contained in the zphisher.sh shell script file) by executing the following command:
+      - bash zphisher.sh
 
-bash zphisher.sh
-
-
-
-
-A page opens with phishing page templates giving options of the type of phishing attacks that to can be performed by entering the corresponding number.
+![alt zphisher](https://github.com/ayushmak7/Phishing-Tool-Implementation/blob/main/images/5.png?raw=true)
 
 
+6. A page opens with phishing page templates giving options of the type of phishing attacks that to can be performed by entering the corresponding number.
 
-Upon typing the preferred option (e.g.14) against the “select option” prompt, the tool displays the tunnelling options installed upon running the bash zphisher.sh command. The phishing page template is executed using the corresponding number entered of the tunnelling option below.
+      - Upon typing the preferred option (e.g.14) against the “select option” prompt
+
+ ![alt zphisher](https://github.com/ayushmak7/Phishing-Tool-Implementation/blob/main/images/6.png?raw=true)
+
+
+7. Zphisher provides three tunneling options: Localhost, Cloudflared, and LocalXpose.
+
+   - Localhost allows you to access your local server using a local IP address, typically 127.0.0.1 or localhost and is useful for testing your server on your own machine.
+   - Cloudflared exposes your local server to the internet using a secure tunnel. It is useful for accessing your server from anywhere, while keeping your traffic encrypted.
+   - LocalXpose uses LocalXpose's reverse proxy to expose your local server to the internet. This is similar to cloudflared, but with a simpler setup process. 
+
+![alt zphisher](https://github.com/ayushmak7/Phishing-Tool-Implementation/blob/main/images/8.png?raw=true)
 
 
 
 Tunneling in the context of Zphisher package refers to the process of exposing a local server running on your machine to the internet. This allows you to access your local server from anywhere in the world, as if it were a public server.
   
-Zphisher provides three tunneling options: Localhost, Cloudflared, and LocalXpose.
 
-Localhost allows you to access your local server using a local IP address, typically 127.0.0.1 or localhost and is useful for testing your server on your own machine.
-
-Cloudflared exposes your local server to the internet using a secure tunnel. It is useful for accessing your server from anywhere, while keeping your traffic encrypted.
-
-LocalXpose uses LocalXpose's reverse proxy to expose your local server to the internet. This is similar to cloudflared, but with a simpler setup process. 
-
-Upon typing the preferred option (e.g.2) against the “port forwarding service” or tunnelling option prompt, a [y/N] (Yes or No) prompt to choose or use a custom port will appear.
-
-
-
+Upon typing the preferred option (e.g.1) for the “port forwarding service” or tunnelling option prompt, a [y/N] (Yes or No) prompt to choose or use a custom port will appear.
 Upon typing the preferred option (e.g. n for No) in response to the question “Do you want a Custom Port [y/N]”, the following output will be displayed.
+
 
 
 
