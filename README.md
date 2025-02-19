@@ -32,12 +32,12 @@ Email - craft email content that will increase the likelihood of recipients open
 
 To use Zphisher, you can follow these steps:
 
-Before downloading Zphisher, I prepared the Kali Linux terminal by update repositories by running the following commands and to ensure that environment was conducive for Zphisher to function
+1. Before downloading Zphisher, I prepared the Kali Linux terminal by update repositories by running the following commands and to ensure that environment was conducive for Zphisher to function
 
 sudo apt update 
 sudo apt full-upgrade -y
 
-Next, we created a directory we called Zphisher and navigated into it using the following commands in succession.
+2. Created a directory we called Zphisher and navigated into it using the following commands in succession.
 
 mkdir zphisher
 cd zphisher 
