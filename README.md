@@ -2,23 +2,21 @@
 
 ## Introduction
 
-A sophisticated phishing attack tricked LastPass users into revealing their master passwords. CryptoChameleon attackers bypassed even diligent users, highlighting the human factor as cybersecurity’s greatest vulnerability. 
-
-The purpose of this project is to raise security awareness and educate employees/users on Social engineering, especially phishing, which is a cybersecurity threat that manipulates people to reveal confidential information through email and malicious websites. 
-
-
+Phishing is a type of cyber attack where attackers trick individuals into providing sensitive information, such as login credentials, financial details, or business data, by impersonating a trustworthy entity. This is usually done through fraudulent emails, messages, or websites designed to look legitimate.
 
 ## Objectives
 
-- Demonstrate how attackers use fake login pages to trick users and their capture user credentials using phishing tools such as Zphisher.
-- Teach phishing detection techniques, such as checking URLs, avoiding suspicious emails, and using MFA.
+Demonstrate how attackers create fradulent emails, messages and login pages to capture user credentials using automated phishing tools such as Zphisher.
 
 
 ## Tools 
 
-Zphisher - an automated phishing tool that is used to create phishing login pages.
-Kali Linux - the VM we will use to download zphisher and get it to work
+Zphisher - to create phising login pages. It is an automated phishing tool that offers phishing templates for 33 popular websites.
+
+Kali Linux - VM we will use to download Zphisher.
+
 Email - craft email content that will increase the likelihood of recipients opening the emails and clicking on the links.
+
 
 ## ⚠️ Important ⚠️
 **If you’re using Zphisher for educational purposes, ensure that:**
@@ -30,54 +28,11 @@ Email - craft email content that will increase the likelihood of recipients open
 ✅ No personal data is misused.
 
 
-Part 1 – Research
-
-In a recent phishing incident, a highly sophisticated phishing campaign led LastPass users to give up their all-important master passwords to hackers. CryptoChameleon attackers tricked even the most diligent user into handing over their high-value credentials, underscoring the belief that the human factor is the greatest cyber vulnerability.
-
-
-
-
-
-
-
-
-Bolster graph showing the trend of increase in phishing since 2023
-
-
-The graph below shows the 2023 data. While the graph above shows a significant increase in the total number of global phishing activities (10.5 million in 2022 to 13.4 million representing an annual 27.8% increase), the graph below identifies August as the month with the highest phishing activities followed by a three-month (September to November) period of the most concentrated phishing attacks, coinciding with the onset of the holiday shopping season.
-
-Graph displaying the phishing statistics trends throughout 2023
-
-
-These findings whetted our appetite for research into phishing tools that could be used to educate people and help reduce the greatest cyber vulnerability - the human factor. The phishing tool we had in mind would according to NIST guidelines be used in penetration testing: 
-To evaluate the effectiveness of an organization's security awareness training programs.
-To simulate real-world phishing attacks and identify parts for improvement.
-Help organizations understand the tactics used by malicious actors and enhance their security measures.
-
-We watched many videos and read about many phishing tools and how to use them. Finally, we settled on Zphisher, an open-source, automated phishing tool written in Node.js by HRT-Tech with 30+ templates that can be customized to help penetration testers and cybersecurity professionals create phishing pages quickly and easily. Zphisher is a powerful open-source tool used for phishing attacks. It has gained popularity due to its ease of use and the wide range of phishing templates it offers for various popular websites such as Facebook, Instagram, Google, Snapchat, GitHub, Yahoo, Proton mail, Spotify, Netflix, LinkedIn, WordPress, Origin, Steam, and Microsoft, among others. 
-
-We found it the most practical to use, given our circumstances and the time frame we had to demonstrate how to install and use it to create an immediate and tangible outcome. We researched how to configure the device to harvest credentials and realized it was more appropriate and safe to run it on Kali Linux.
-
-The image below shows the Zphisher page on GitHub, which gives details about the tool, such as the logo, the url link to the page, the community involved in creating it and the disclaimer that warns that actions and or activities a zphisher user chooses to use the tool for is their responsibility and that misusing it may result in criminal charges. This is because using Zphisher for unauthorized purposes is illegal and unethical. It is recommended only for educational purposes and with the permission of the owners of the targeted system.
-
-Image of GitHub Zphisher page - https://github.com/htr-tech/zphisher
-
-
-Our findings on Zphisher were as follows:
-
-Being an open-source tool, it is free to use and can be modified to suit the user's needs, to obtain credentials such as user ID and password and IP addresses by cloning the repository and running the script using the command "bash zphisher.sh". 
-We found that Zphisher is designed to run on Kali Linux, a popular operating system for ethical hacking and penetration testing. 
-Zphisher has a simple and user-friendly interface, making it easy for both beginners and experienced users to perform phishing attacks. It allows users to create custom templates, giving them more flexibility and control over their phishing attacks.
-Zphisher offers phishing templates for 33 popular websites, including Facebook, Instagram, Google, Snapchat, GitHub, Yahoo, Proton mail, Spotify, Netflix, LinkedIn, WordPress, Origin, Steam, and Microsoft, as shown in the image below
-
-
-
-
-Part 2 – Installation and Configuration
+## Part 1 – Installating and Configuring Zphisher
 
 To use Zphisher, you can follow these steps:
 
-Before downloading Zphisher, we prepared the Kali Linux terminal by update repositories by running the following commands and to ensure that environment was conducive for Zphisher to function
+Before downloading Zphisher, I prepared the Kali Linux terminal by update repositories by running the following commands and to ensure that environment was conducive for Zphisher to function
 
 sudo apt update 
 sudo apt full-upgrade -y
