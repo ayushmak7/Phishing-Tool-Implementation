@@ -89,6 +89,9 @@ Email - craft email content that will increase the likelihood of recipients open
 
 9. Copy & paste this http://127.0.0.1:8080 onto a browser page, it opens a Linkedin login page that appeared legitimate. The user name and the password you type in will be harvested in the zphisher tool.
 
+When an attacker sends phishing emails with the generated phishing links to the target, the target clicks the link to the malicious website, which can potentially deceive them into trusting the malicious website, potentially resulting in them falling victim to a phishing attack and their credentials being harvested in realtime on zphisher. Example below:
+
+
 ![alt zphisher](https://github.com/ayushmak7/Phishing-Tool-Implementation/blob/main/images/10.png?raw=true)
 
 ![alt zphisher](https://github.com/ayushmak7/Phishing-Tool-Implementation/blob/main/images/11.png?raw=true)
@@ -106,7 +109,6 @@ Email - craft email content that will increase the likelihood of recipients open
 The image above containing credentials identical to the preceding image represents credentials harvested from Yush’s network. 
 
 
-When an attacker sends phishing emails with the generated phishing links to the target, they will click the link leading to the malicious website, which can potentially deceive them into trusting the malicious website, potentially resulting in them falling victim to a phishing attack and their credentials being harvested in realtime on zphisher.
 
 
 
