@@ -112,7 +112,7 @@ The image above containing credentials identical to the preceding image represen
 
 
 
-**Mitigating Phishing Attacks**
+## **Mitigating Phishing Attacks**
 
 By implementing a multi-layered defence strategy that includes staff education, regular simulated phishing campaigns, email filtering tools, DMARC records, multi-factor authentication (MFA), separate work and personal devices, established mail providers like Gmail or Office 365, and access control and privilege management policies, organizations and individuals can reduce the risk of phishing attacks and protect their sensitive information.
 
