@@ -6,7 +6,7 @@ Phishing is a type of cyber attack where attackers trick individuals into provid
 
 ## Objectives
 
-Demonstrate how attackers create fradulent emails, messages and login pages to capture user credentials using automated phishing tools such as Zphisher.
+Demonstrate how attackers create fradulent emails, messages and login pages to capture user credentials using phishing tools such as Zphisher.
 
 
 ## Tools 
