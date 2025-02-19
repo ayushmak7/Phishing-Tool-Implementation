@@ -130,3 +130,34 @@ Implementing separate work and personal devices policy can help prevent attacker
 Using established mail providers like Gmail or Office 365, to offer advanced security features that can help detect and block phishing attacks. These features may include email filtering, spam blocking, and anti-phishing tools.
 
 Implementing access control and privilege management policies can help prevent attackers from gaining access to sensitive information by limiting access to authorized users and devices. This can include implementing role-based access control (RBAC), which restricts access to specific roles or job functions, and implementing least privilege principles, which limit access to the minimum level required to perform a task.
+
+
+**References**
+
+Anderson Tiffani (July 27, 2023). What Is URL Masking and When Should You Mask a Link (bluehost.com) https://www.bluehost.com/blog/everything-you-need-to-know-about-url-masking/
+
+Cloudfare (January 2024) Set up your first tunnel · Cloudflare Zero Trust docshttps://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/
+
+CrowdStrike (February 13, 2023). How To Implement Phishing Attack Awareness Training (crowdstrike.com) https://www.crowdstrike.com/cybersecurity-101/phishing/phishing-attack-awareness-training/
+
+DMARC. dmarc.org – Domain Message Authentication Reporting & Conformance https://dmarc.org/
+
+Emelianov David (November 18, 2023). Business Email Filtering Tools: A Comprehensive Guide (trimbox.io) https://www.trimbox.io/blog/business-email-filtering-tools
+
+GitHub  (2024) - htr-tech: Automated phishing tool with 30+ templates. https://github.com/htr-tech/zphisher  
+
+Heimdal (December 7, 2023). What Is a Privileged Access Management Policy? Guidelines and Benefits (heimdalsecurity.com). https://heimdalsecurity.com/blog/what-is-a-privileged-access-management-pam-policy/#:~:text=How%20to%20Create%20a%20Privileged%20Access%20Management%20Policy,...%206%20Create%20an%20Incident%20Response%20Plan%20
+
+InfoSec Pat on Youtube (2023). How to Install and Run Zphisher on Kali Linux Phishing Tool - Video 2023 with InfoSec Pat. https://www.youtube.com/results?search_query=How+to+Install+and+Run+Zphisher+on+Kali+Linux+Phishing+Tool+-+Video+2023+with+InfoSec+Pat+   
+
+Johnson Ann & Morillo Christina (January 17, 2020). How to implement Multi-Factor Authentication (MFA) | Microsoft Security Blog https://www.microsoft.com/en-us/security/blog/2020/01/15/how-to-implement-multi-factor-authentication/
+
+MacKay James. How To Run A Successful Phishing Simulation Campaign (metacompliance.com) https://www.metacompliance.com/blog/phishing-and-ransomware/run-phishing-simulation-campaign
+
+Mell Peter & Grance Tymothy (September 2011). Recommendations of the National Institute of Standards and Technology NIST US Department of Commerce https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-115.pdf
+
+Mystrika (2024). Cold Email: Setting Up Your Own Email Server Vs Established Email Service Provider - Mystrika - Cold Email Software. https://blog.mystrika.com/cold-email-setting-up-your-own-email-server-vs-established-email-service-provider/
+
+Nelson, N. (2024, April 19). LastPass users lose master passwords to ultra-convincing scam. Dark Reading. https://www.darkreading.com/cyberattacks-data-breaches/lastpass-users-lose-master-passwords-ultra-convincing-scam  
+
+Smith, G. (2023, October 23). Top Phishing Statistics for 2023: Latest Figures and Trends. StationX. https://www.stationx.net/phishing-statistics/
