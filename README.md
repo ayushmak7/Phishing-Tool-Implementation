@@ -106,7 +106,7 @@ When an attacker sends phishing emails with the generated phishing links to the 
 
 ![alt zphisher](https://github.com/ayushmak7/Phishing-Tool-Implementation/blob/main/images/13.png?raw=true)
 
-The image above containing credentials identical to the preceding image represents credentials harvested from Yush’s network. 
+The image above containing credentials identical to the preceding image represents credentials harvested from Yush’s target network. 
 
 
 
