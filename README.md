@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Phishing is a type of cyber attack where attackers trick individuals into providing sensitive information, such as login credentials, financial details, or business data, by impersonating a trustworthy entity. This is usually done through fraudulent emails, messages, or websites designed to look legitimate.
+Phishing is a type of social engineering attack where attackers, often through email or text messages, impersonate legitimate entities to trick victims into revealing sensitive information or clicking malicious links, ultimately aiming to steal data or install malware. 
 
 ## Objectives
 
-Demonstrate how attackers create fradulent emails, messages and login pages to capture user credentials using phishing tools such as Zphisher.
+Demonstrate how attackers create malicious links to embed into fraudulent emails, messages and login pages to capture user credentials phishing tools such as Zphisher.
 
 
 ## Tools 
