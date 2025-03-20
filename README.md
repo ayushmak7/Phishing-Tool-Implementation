@@ -6,7 +6,7 @@ Phishing is a type of social engineering attack where attackers, often through e
 
 ## Objectives
 
-Demonstrate how attackers create malicious links to embed into fraudulent emails, messages and login pages to capture user credentials phishing tools such as Zphisher.
+Demonstrate how attackers create malicious links that are embedded into fraudulent emails, messages and login pages to capture user credentials phishing tools such as Zphisher.
 
 
 ## Tools 
